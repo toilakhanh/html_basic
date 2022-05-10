@@ -1,0 +1,73 @@
+:root {
+  --custom-color: #f0f0f0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-indicators li {
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+}
+
+.card-products {
+  /* width: 280px; */
+  overflow: hidden;
+}
+
+.new-price {
+  font-size: 16px;
+}
+
+.old-price {
+  font-size:14px;
+  color: gray;
+}
+
+.icon-control {
+  /* visibility: hidden; */
+  /* display: none; */
+  transition: opacity 1s;
+  opacity: 0;
+}
+
+#carouselExampleIndicators:hover .icon-control {
+  /* visibility: visible;
+  display: block; */
+  opacity: 1;
+  transition: opacity 2s;
+}
+.card-products:hover {
+  border: 1px solid #0074d9;
+}
+
+.dropdown-menu {
+  position: absolute;
+  display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  position: absolute;
+  z-index: 1;
+}
+
+.sale-sticky {
+  position: absolute;
+  width: 180px;
+  height: 30px;
+  display:flex;
+  justify-content: center;
+  align-items: center;  
+  background-color: yellow;
+  right: -70px;
+  top: 5px;
+   transform: rotate(45deg)
+}
+
+h4 {
+  padding-top: 20px
+}
