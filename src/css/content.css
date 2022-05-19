@@ -1,0 +1,109 @@
+#content{
+    height: 760px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 55px;
+}
+
+.contentImg{
+    width: 485px;
+    height: 685px;
+}
+
+.content_text{
+    padding: 3rem;
+}
+
+.content_header h1{
+    font-size: 50px;
+    margin-bottom: 1.5rem;
+}
+
+.content_header p{
+    color: var(--bg-color);
+    margin-bottom: 1rem;
+}
+
+.listInfor{
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+}
+.listInfor li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.title{
+    color: var(--text-color);
+    display: flex;
+}
+
+.listInfor .title span:first-child{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-color);
+    width: 130px;
+}
+
+.listInfor .title span {
+    font-size: 20px;
+    width: calc(100%-130px);
+    margin-left: 20px;
+}
+
+.btnDowload{
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: var(--purple);
+    font-size: 20px;
+    border: none;
+    padding: 12px 30px;
+}
+
+.btnDowload:hover{
+    background-color: var(--paige);
+    transition: var(--smooth);
+}
+
+.btnDowload a{
+    text-decoration: none;
+}
+
+.skillContainer{
+    height: 412px;
+    width: 452px;
+    margin-top: 10px;
+}
+.skill {
+    border-radius: 10px;
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+.skills {
+    border-radius: 10px;
+    text-align: right;
+    color: var(--text-color);
+  }
+  
+.HTML {
+    width: 100%; 
+    background-color: var(--purple);
+}
+.CSS {
+    width: 85%; 
+    background-color: var(--purple);
+}
+.JavaScript {
+    width: 65%; 
+    background-color: var(--purple);
+}
+.Design {
+    width: 50%; 
+    background-color: var(--purple);
+}
+.Java{
+    width: 40%; 
+    background-color: var(--purple);
+}

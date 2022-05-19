@@ -1,0 +1,32 @@
+.contact > h1{
+    justify-content: center;
+}
+
+.addressContact{
+    
+    width: 260px;
+    max-height: 234px;
+    
+}
+
+.addressContact > a{
+    color: black;
+}
+
+.contactItem{
+    /* justify-content: space-around; */
+}
+.iconItemContact{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--purple);
+    margin: 0 auto;
+}
+.fa-solid{
+    font-size: 30px;
+    
+}
+.fa-location-dot{
+
+}
