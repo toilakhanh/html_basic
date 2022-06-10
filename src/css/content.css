@@ -89,22 +89,22 @@
   }
   
 .HTML {
-    width: 100%; 
-    background-color: var(--purple);
-}
-.CSS {
     width: 85%; 
     background-color: var(--purple);
 }
-.JavaScript {
-    width: 65%; 
+.CSS {
+    width: 70%; 
     background-color: var(--purple);
 }
-.Design {
+.JavaScript {
     width: 50%; 
     background-color: var(--purple);
 }
+.Design {
+    width: 35%; 
+    background-color: var(--purple);
+}
 .Java{
-    width: 40%; 
+    width: 20%; 
     background-color: var(--purple);
 }
