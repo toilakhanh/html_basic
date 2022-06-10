@@ -39,12 +39,11 @@ p, h1, h2, h3, h4, h5, h6 {
 :root{
     --smooth: all 0.3s ease-in;
     --text-color: #000;
-    --bg-color:#f8faff;
+    --bg-color:#EFCFE3;
     --bg-color2:#fff;
-    --purple: #a88eeb;
+    --purple: #EA9AB2;
     --paige: #ffeae2;
-    --toggle-bg: #a88eeb;
-    --toggle-circle: #fff;
+    --bg-header: #E27396;
 }
 
 img{
@@ -65,6 +64,9 @@ button{
 button:hover {
     background-color: var(--purple);
     transition: var(--smooth);
+}
+body{
+  background-color: var(--bg-color2);
 }
 
 

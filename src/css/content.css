@@ -20,7 +20,7 @@
 }
 
 .content_header p{
-    color: var(--bg-color);
+    color: var(--paige);
     margin-bottom: 1rem;
 }
 
@@ -75,6 +75,7 @@
     width: 452px;
     margin-top: 10px;
 }
+
 .skill {
     border-radius: 10px;
     width: 100%;

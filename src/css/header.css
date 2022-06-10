@@ -28,12 +28,13 @@ header{
     bottom: 0;
     position: fixed;
     width: 100%;
-    margin-left: 24%;
+    /* margin-left: 24%; */
     
-  }
-  
-  /* Navbar links */
+}
+
+/* Navbar links */
 .navbar1 a {
+    background-color: var(--bg-header) ;
     float: left;
     text-align: center;
     padding: 12px;
