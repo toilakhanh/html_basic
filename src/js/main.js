@@ -1,5 +1,5 @@
-// const darkMode = document.querySelector("#switch")
+document.getElementById("btnCV").onclick = ()=>{
+ 
+  document.getElementById("linkCV").setAttribute("href","https://www.topcv.vn/xem-cv/UgAAXQUGBAdVBFIFDlNSVwdVBwFRAFQABFRRVQd18d")
+}
 
-// darkMode.addEventListener("change", ()=>{
-//     document.body.classList.toggle("darkmode");
-// })
