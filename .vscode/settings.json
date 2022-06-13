@@ -1,0 +1,70 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "files.trimTrailingWhitespace": true,
+    "explorer.confirmDragAndDrop": false,
+    "javascript.referencesCodeLens.enabled": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 12.5,
+    "terminal.integrated.fontSize": 13.5,
+    "window.zoomLevel": 0,
+    "dart.debugExternalLibraries": true,
+    "dart.debugSdkLibraries": false,
+    "typescript.suggest.autoImports": true,
+    "workbench.iconTheme": "material-icon-theme",
+    // "workbench.colorTheme": "Dracula",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+        // "source.organizeImports": true
+    },
+    "eslint.format.enable": true,
+    // "[javascript]": {
+    //     "editor.defaultFormatter": "vscode.typescript-language-features"
+    // },
+
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.autofetch": true,
+    "editor.fontLigatures": true,
+    "sync.gist": "c407a7dcd672890563da261c35e6a544",
+    "files.autoSaveDelay": 4000,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "git.enableSmartCommit": true,
+    "todo-tree.tree.showScanModeButton": false,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX", "[ ]", "[x]"],
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+    "files.autoSave": "afterDelay",
+    "editor.formatOnSave": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // "eslint.lintTask.enable": true,
+    // "audioCues.enabled": "off",
+    "[json]": {
+        "editor.formatOnSave": true
+    },
+    "javascript.validate.enable": true,
+    "cSpell.words": [
+        "alphanumers",
+        "Authen",
+        "cssfileaddress",
+        "Entypo",
+        "HEXD",
+        "HEXEB",
+        "HEXF",
+        "Masakazu",
+        "nihongo",
+        "Ochiai",
+        "Registed",
+        "Xefefef"
+    ],
+    "git.path": "/usr/bin/git",
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "javascript.preferences.importModuleSpecifier": "relative"
+}
